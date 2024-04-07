@@ -1,0 +1,91 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+
+.section{
+    background:url('./img3.jpg');
+    height: 100vh;
+    background-size:cover;
+    background-position:center;
+    min-height: 100px;
+    min-width:min-content;
+
+}
+ul{
+    float:right;
+    list-style: none;
+    min-height: 400px;
+    margin-top: 40px;
+    margin-right: 80px;
+    font-size: 25px;
+
+}
+ul li{
+    display:inline-block
+}
+ul li a{
+    text-decoration: none;
+    color:black;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+ul li a:hover{
+    background-color:pink;
+    color:black;
+}
+ul li .active{
+    background-color:black;
+}
+.title{
+     height:80px
+}
+.title h1{ color:;
+    float:right;
+    padding-top: 239px;
+    font-size: 70px;
+    padding-bottom: 500px;
+    padding-top: 100px;
+    padding-right: 520px;
+    padding-left: 80px;
+    padding-bottom: 50px;
+    position: center;
+    padding-left: 80px;
+}
+.title h2{
+    color:black;
+    display:inline-block;
+    font-size: 35px;
+    position: center;
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-bottom: 25px;
+
+}
+
+button{
+    text-align: center;
+    display: inline;
+    font-size:25px;
+    padding:10px;
+    border-radius:10px;
+    margin:160px;
+    margin-right: 250px;
+    margin-right:250px ;
+    margin-bottom:30px;
+}
+button:hover{
+    background-color:pink;
+    color:black;
+    transition:0.5 ease;
+
+}
+.container{
+    text-align: centere;
+}
+    
+ul li .one{
+    background-color:white;
+}
